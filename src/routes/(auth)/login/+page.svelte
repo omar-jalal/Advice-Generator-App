@@ -1,6 +1,7 @@
 <script>
     import { enhance, applyAction } from '$app/forms'
     import { fade } from 'svelte/transition'
+    import { base } from '$app/paths'
 
     export let form;
 </script>
@@ -10,7 +11,7 @@
 </svelte:head>
 
 <main in:fade out:fade class="flex flex-col gap-8 justify-center items-center min-h-screen md:w-3/4 lg:w-1/2 xl:w-[25%] m-auto">
-    <a href="/">
+    <a href="{base}/">
         <svg in:fade class="absolute inset-0 left-5 max-h-[5%] max-w-[5%] mt-8 cursor-pointer fill-grayish-blue hover:left-0 hover:fill-neon-green transition-all duration-300" xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="0 0 24 24" width="512" height="512"><path d="M17.921,1.505a1.5,1.5,0,0,1-.44,1.06L9.809,10.237a2.5,2.5,0,0,0,0,3.536l7.662,7.662a1.5,1.5,0,0,1-2.121,2.121L7.688,15.9a5.506,5.506,0,0,1,0-7.779L15.36.444a1.5,1.5,0,0,1,2.561,1.061Z"/></svg>
     </a>
     <section class="text-center">
