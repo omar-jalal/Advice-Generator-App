@@ -1,13 +1,12 @@
 <script>
     import { fade } from 'svelte/transition'
-    import { base } from '$app/paths';
 
 </script>
 
 <nav in:fade out:fade class="navbar bg-base-100">
     <div class="flex-1">
     <!-- svelte-ignore a11y-missing-attribute -->
-    <a class="btn btn-ghost normal-case text-2xl transition-all duration-300" href="{base}/"><img class="mr-4" src="/favicon-32x32.png" alt="logo">Advice Generator</a>
+    <a class="btn btn-ghost normal-case text-2xl transition-all duration-300" href="/"><img class="mr-4" src="/favicon-32x32.png" alt="logo">Advice Generator</a>
     </div>
     <div class="flex-none">
     <div class="dropdown dropdown-end">
@@ -34,21 +33,21 @@
         <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 mr-1">
             <!-- svelte-ignore a11y-missing-attribute -->
-            <li><a class="transition-all duration-300 hover:bg-neon-green hover:text-grayish-blue active:bg-dark-blue active:text-neon-green" href="{base}/advices">Advices</a></li>
+            <li><a class="transition-all duration-300 hover:bg-neon-green hover:text-grayish-blue active:bg-dark-blue active:text-neon-green" href="/advices">Advices</a></li>
             <!-- svelte-ignore a11y-missing-attribute -->
-            <li><a class="transition-all duration-300 hover:bg-neon-green hover:text-grayish-blue active:bg-dark-blue active:text-neon-green" href="{base}/login">Login</a></li>
+            <li><a class="transition-all duration-300 hover:bg-neon-green hover:text-grayish-blue active:bg-dark-blue active:text-neon-green" href="/login">Login</a></li>
             <!-- svelte-ignore a11y-missing-attribute -->
-            <li><a class="transition-all duration-300 hover:bg-neon-green hover:text-grayish-blue active:bg-dark-blue active:text-neon-green" href="{base}/register">Register</a></li>
+            <li><a class="transition-all duration-300 hover:bg-neon-green hover:text-grayish-blue active:bg-dark-blue active:text-neon-green" href="/register">Register</a></li>
         </ul>
     </div>
             <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
             <ul class="gap-8 mr-8 sm:hidden md:hidden lg:flex xl:flex">
                 <!-- svelte-ignore a11y-missing-attribute -->
-                <li class="transition-all duration-300 cursor-pointer hover:text-neon-green"><a href="{base}/advices">Advices</a></li>
+                <li class="transition-all duration-300 cursor-pointer hover:text-neon-green"><a href="/advices">Advices</a></li>
                 <!-- svelte-ignore a11y-missing-attribute -->
-                <li class="transition-all duration-300 cursor-pointer hover:text-neon-green"><a href="{base}/login">Login</a></li>
+                <li class="transition-all duration-300 cursor-pointer hover:text-neon-green"><a href="/login">Login</a></li>
                 <!-- svelte-ignore a11y-missing-attribute -->
-                <li class="transition-all duration-300 cursor-pointer hover:text-neon-green"><a href="{base}/register">Register</a></li>
+                <li class="transition-all duration-300 cursor-pointer hover:text-neon-green"><a href="/register">Register</a></li>
             </ul>
     </div>
 </nav >
