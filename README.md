@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/tiger8707/Advice-Generator-App/)
-- Live Site URL: (https://tiger8707.github.io/Advice-Generator-App/)
+- Live Site URL: (https://advice-generator-app-rust-seven.vercel.app/)
 
 ### Built with
 
