@@ -1,7 +1,3 @@
 import { writable } from "svelte/store";
 
-export const SavedAdvices = writable([
-    // {
-    //     number: 1, advice: ''
-    // },
-]);
+export const SavedAdvices = writable([]);
