@@ -1,10 +1,6 @@
 {
 	"name": "advice-generator-app",
 	"version": "0.0.1",
-	"engines": {    
-        "node": "16.x",
-        "npm": "8.x"
-    },
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -15,6 +11,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
+		"@sveltejs/adapter-vercel": "next",
 		"@fontsource/fira-mono": "^4.5.0",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@sveltejs/adapter-auto": "next",
